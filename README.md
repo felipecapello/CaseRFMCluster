@@ -49,7 +49,8 @@ Make sure you have the following Python libraries installed:
 ```bash
 pip install pandas numpy seaborn matplotlib plotly sidetable scikit-learn scipy yellowbrick
 
-📝 Additional Note (English)
+## 📝 Additional Note
+
 A complementary document was created to thoroughly describe the entire thought process and development of this case study, following the CRISP-DM stages.
 You can access it here:
 📄 Full Case Documentation

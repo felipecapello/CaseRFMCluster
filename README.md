@@ -11,7 +11,7 @@ Additionally, the overall workflow follows the **CRISP-DM** (Cross Industry Stan
 
 A complementary document was created to thoroughly describe the entire thought process and development of this case study, following the CRISP-DM stages.  
 You can access it here:  
-📄 [Full Case Documentation](https://colab.research.google.com/drive/1L-JvMjOWmEFEuh5t4vRUVMDMSQfbnlAt?usp=sharing)
+📄 [Full Case Documentation](https://drive.google.com/file/d/1qXT6kmwaR-K8rkMY-jwSrUfRqGHU6vDm/view?usp=sharing)
 
 ## 🔍 Methodology
 

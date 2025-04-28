@@ -1,45 +1,50 @@
-# 📊 Clustering de Clientes — Caso de Estudo de E-commerce
+# 📊 Customer Clustering — E-commerce Case Study
 
-## Descrição
+## Description
 
-Este projeto realiza a **clusterização de clientes** de um e-commerce britânico utilizando a metodologia **RFM** (Recency, Frequency, Monetary) para segmentação de clientes.  
-O objetivo é agrupar os clientes em diferentes perfis de comportamento, auxiliando na definição de **estratégias de fidelização** e marketing.
+This project performs **customer clustering** for a British e-commerce business, using the **RFM** methodology (Recency, Frequency, Monetary) for customer segmentation.  
+The objective is to group customers based on their purchasing behavior and support the development of **customer retention** and marketing strategies.
 
-O notebook foi desenvolvido como um case prático para alunos da **DNC**.
+The notebook was developed as a practical case study for **DNC** students.
 
-## 🔍 Metodologia
+Additionally, the overall workflow follows the **CRISP-DM** (Cross Industry Standard Process for Data Mining) methodology, moving through Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, and Deployment phases.
 
-As etapas principais do projeto incluem:
+## 🔍 Methodology
 
-1. **Entendimento do Problema (Business Understanding)**
-   - Definição do desafio de negócios: segmentar clientes com base em comportamentos de compra.
+The main stages of the project include:
 
-2. **Entendimento dos Dados (Data Understanding)**
-   - Análise exploratória dos dados transacionais entre dezembro de 2010 e dezembro de 2011.
-   - Fonte dos dados: [Ecommerce Data - Kaggle](https://www.kaggle.com/datasets/carrie1/ecommerce-data).
+1. **Business Understanding**
+   - Definition of the business challenge: segment customers based on purchasing behavior patterns.
 
-3. **Preparação dos Dados**
-   - Cálculo das métricas **RFM** para cada cliente.
-   - Tratamento de outliers e dados inconsistentes.
+2. **Data Understanding**
+   - Exploratory data analysis of transactions between December 2010 and December 2011.
+   - Dataset source: [Ecommerce Data - Kaggle](https://www.kaggle.com/datasets/carrie1/ecommerce-data).
 
-4. **Modelagem**
-   - Aplicação de algoritmos de clusterização:
+3. **Data Preparation**
+   - Calculation of **RFM metrics** for each customer.
+   - Treatment of outliers and inconsistent data.
+
+4. **Modeling**
+   - Application of clustering algorithms:
      - K-Means
      - Gaussian Mixture
      - DBSCAN
      - MeanShift
      - Agglomerative Clustering
-   - Escalonamento dos dados usando `StandardScaler`.
+   - Data scaling using `StandardScaler`.
 
-5. **Avaliação**
-   - Uso de métricas como **Silhouette Score**, **Davies-Bouldin Score** e **Calinski-Harabasz Score** para avaliar a qualidade dos agrupamentos.
+5. **Evaluation**
+   - Cluster quality assessment through:
+     - **Silhouette Score**
+     - **Davies-Bouldin Score**
+     - **Calinski-Harabasz Score**
 
-6. **Visualizações**
-   - Gráficos de dispersão, dendrogramas e visualizações de cotovelos para análise dos clusters.
+6. **Visualization**
+   - Scatter plots, dendrograms, and elbow curve visualizations for cluster analysis.
 
-## 📦 Dependências
+## 📦 Dependencies
 
-Certifique-se de ter as seguintes bibliotecas Python instaladas:
+Make sure you have the following Python libraries installed:
 
 ```bash
 pip install pandas numpy seaborn matplotlib plotly sidetable scikit-learn scipy yellowbrick

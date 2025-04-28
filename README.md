@@ -9,6 +9,10 @@ The notebook was developed as a practical case study for **DNC** students.
 
 Additionally, the overall workflow follows the **CRISP-DM** (Cross Industry Standard Process for Data Mining) methodology, moving through Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, and Deployment phases.
 
+A complementary document was created to thoroughly describe the entire thought process and development of this case study, following the CRISP-DM stages.  
+You can access it here:  
+📄 [Full Case Documentation](https://colab.research.google.com/drive/1L-JvMjOWmEFEuh5t4vRUVMDMSQfbnlAt?usp=sharing)
+
 ## 🔍 Methodology
 
 The main stages of the project include:
@@ -48,9 +52,3 @@ Make sure you have the following Python libraries installed:
 
 ```bash
 pip install pandas numpy seaborn matplotlib plotly sidetable scikit-learn scipy yellowbrick
-
-## 📝 Additional Note
-
-A complementary document was created to thoroughly describe the entire thought process and development of this case study, following the CRISP-DM stages.
-You can access it here:
-📄 Full Case Documentation
